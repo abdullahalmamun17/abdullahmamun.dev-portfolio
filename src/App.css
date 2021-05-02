@@ -1,0 +1,22 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  /* background-color: #282c34; */
+  /* height: 500px; */
+  background-image: url("./images/header-bg.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.about-box-shadow {
+  box-shadow: 0 0 10px gray;
+}
+.project-card {
+  cursor: pointer;
+  transition: all 2s;
+}
+.project-card:hover {
+  transform: scale(1.05);
+}
